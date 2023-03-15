@@ -4,7 +4,7 @@ import java.util.Stack;
 public class BTSIterator implements Iterator<Integer> {
 
     
-        Tree tree;
+    Tree tree;
     Stack<Node> stack;
     
 	BTSIterator(Tree tree) {
@@ -39,7 +39,7 @@ public class BTSIterator implements Iterator<Integer> {
 			node = node.left;
 		}
     }
-
+// making a concrete Interator
     public Iterator<Integer> getIterator() {
         return new BTSIterator(tree);
      }
