@@ -2,7 +2,7 @@ public class Tree{
 
     Node root;
 
-
+    // method to add nodes to the tree
     private Node addRecursive(Node current, int value) {
         if (current == null) {
             return new Node(value);

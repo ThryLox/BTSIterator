@@ -13,10 +13,13 @@ public class BTS {
         tree.add(2);
         tree.add(1);
         tree.add(8);
-        tree.add(9);
+        tree.add(25);
         tree.add(7);
+        tree.add(4);
+        tree.add(5);
+        BTSIterator bts = new BTSIterator(tree); 
 
-        BTSIterator bts = new BTSIterator(tree);
+        System.out.println("Traversing the Binary Search Tree : ");
 
         for(Iterator<Integer> itr = bts.getIterator(); itr.hasNext(); ){
 
